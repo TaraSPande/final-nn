@@ -15,7 +15,7 @@ jobs:
 
       - name: Install package
         run: |
-          pip install . 
+          pip install nn 
       - name: Test with pytest
         run: |
           python -m pytest -v test/*
