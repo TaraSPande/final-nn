@@ -15,5 +15,8 @@ dependencies = [
     "pytest", "numpy", "matplotlib", "sklearn" 
 ]
 
+[tool.flit.metadata]
+module = "nn"
+
 [project.urls]
 Home = "https://github.com/TaraSPande/final-nn"
