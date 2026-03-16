@@ -13,14 +13,9 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: Prepare Python build tools
-        run: |
-          pip install --upgrade pip setuptools wheel
-          pip install --upgrade build flit-core
-
       - name: Install package
         run: |
-          pip install .
+          pip install -e ./nn
       - name: Test with pytest
         run: |
           python -m pytest -v test/*
