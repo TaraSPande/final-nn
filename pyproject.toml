@@ -5,7 +5,7 @@ requires = [
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "final-nn"
+name = "nn"
 authors = [{name = "Tara Pande", email = "tara.pande@ucsf.edu"}]
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -15,11 +15,5 @@ dependencies = [
     "pytest", "numpy", "matplotlib", "sklearn" 
 ]
 
-[tool.flit.metadata]
-module = "nn"
-home-page = "https://github.com/TaraSPande/final-nn"
-description = "your short description"
-author = "Tara Pande <tara.pande@ucsf.edu>"
-
 [project.urls]
-Home = "https://github.com/TaraSPande/final-nn"
+Home = "https://github.com/TaraSPande/final-nn.git"
